@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Parkinsans:wght@300..800&family=Yatra+One&display=swap');
+.footer{
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(56, 55, 59);
+    padding: 40px 30px;
+    position: relative;
+    margin-top: -6px;
+    display: flex;
+    bottom: 0px;
+    font-family: "Parkinsans", sans-serif;
+}
+.footer .left{
+    display: flex;
+    flex: 3;
+    justify-content: space-around;
+}
+.footer .left .block h2{
+  color: white;
+  font-size: 23px;
+  padding: 10px 0px;
+  border-bottom:2px solid rgb(255, 221, 0) ;
+} 
+.footer .left .block .link{
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 5px 0px;
+    display: block;
+    text-decoration: none;
+    font-family: "Parkinsans", sans-serif;
+}
+.footer .right{
+    padding: 20px 0px;
+    flex: 1;
+}
+.footer .title{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    border-bottom:2px solid rgb(255, 221, 0) ;
+}
+.footer .social{
+    width: 80%;
+    display: flex;
+    padding: 30px 20px ;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer .social .link{
+    padding: 5px 10px;
+}
+.footer .social .link .bi{
+    width: 40px;
+    height: 40px;
+    color: white;
+    transition: all .8s;
+}
+.footer .social .link .bi:hover{
+    color: rgb(255, 221, 0);
+}
+

@@ -1,0 +1,40 @@
+.articl{
+    width: 470px;
+    position: relative;
+}
+.articl .img{
+    width: 100%;
+}
+.articl .img img{
+    width: 470px;
+}
+.articl .text{
+    padding: 10px;
+    height: 170px;
+    background-color: white;
+    width: 100%;
+}
+.articl .title{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 0%;
+}
+.articl hr{
+    margin-top: 20px;
+    height: 3px;
+    border: none;
+    width: 100px;
+    position: absolute;
+    left: 8px;
+    background-color: rgb(255, 221, 0);
+}
+.articl .url{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 0%;
+}
+.articl .url .link{
+    text-decoration: none;
+    color: rgb(255, 221, 0);
+}

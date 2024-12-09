@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Parkinsans:wght@300..800&family=Yatra+One&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    width: 100%;
+}
+body{
+    background-color: rgb(56, 55, 59);
+}
+.navbar{
+    width: 100%;
+    top: 0px;
+    display: block;
+    position: fixed;
+    font-family: "Parkinsans", sans-serif;
+    z-index: 4;
+}
+.navbar .BlackFriday{
+    background-color: rgb(255, 221, 0);
+    padding: 15px;
+    text-align:  center;
+    line-height: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+}
+.navbar .BlackFriday span{
+       position: absolute;
+       right: 20px;
+       top: 50%;
+    transform: translateY(-50%);
+}
+.navbar .BlackFriday span .bi{
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navbar .navbarmain{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: rgb(56, 55, 59);
+}
+.navbar .navbarmain .left{
+    display:  flex;
+    align-items: center;
+}
+.navbar .navbarmain .left .title{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    border-bottom:2px solid rgb(255, 221, 0) ;
+}
+.navbar .navbarmain .left ul{
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: space-around;
+}
+.navbar .navbarmain .left .link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size:18px ;
+    transition: all .8s;
+    font-family: "Parkinsans", sans-serif;
+}
+.navbar .navbarmain .left .link:hover{
+    color: rgb(255, 221, 0);
+}
+.navbar .navbarmain .right{
+    display:  flex;
+    align-items: center;
+    width: 40%;
+    justify-content: space-around;
+}
+.navbar .navbarmain .right .blog{
+    text-decoration: none;
+    color: rgb(255, 221, 0);
+    font-weight: bold;
+    font-size:18px ;
+    transition: all .8s;
+    font-family: "Parkinsans", sans-serif;
+}
+.navbar .navbarmain .right .blog:hover{
+    color: white;
+}
+.navbar .navbarmain .right .login{
+    text-decoration: none;
+    color:white;
+    font-size:18px ;
+    font-family: "Parkinsans", sans-serif;
+}
+.navbar .navbarmain .right button{
+    padding: 10px 15px;
+    background-color: rgb(255, 221, 0) ;
+    border: none;
+    border-radius: 5px;
+    font-family: "Parkinsans", sans-serif;
+}
+.navbar .navbarmain .right .sing{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size:18px ;
+    font-family: "Parkinsans", sans-serif;
+}

@@ -1,0 +1,80 @@
+.newsletter{
+    width: 100%;
+    background-color: rgb(255, 221, 0);
+    height: 100%;
+    display: flex;
+}
+.newsletter .left{
+    width: 40%;
+    padding: 20px;
+    padding-left: 30px;
+}
+.newsletter .left .Question{
+    padding-top: 50px;
+    font-size: 30px;
+    color: rgb(56, 55, 59);
+}
+.newsletter .left .text{
+    font-size: 30px;
+    color: rgb(56, 55, 59);
+    font-weight: bold;
+}
+.newsletter .center{
+    width: 20%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newsletter .center .bi{
+    width: 130px;
+    color: rgb(56, 55, 59);
+    height:130px;
+}
+.newsletter .right{
+    width: 40%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.newsletter .right form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+.newsletter .right form input{
+    height: 50px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Parkinsans", sans-serif;
+}
+.newsletter .right form button{
+    height: 55px;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Parkinsans", sans-serif;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(56, 55, 59);
+    color: white;
+    cursor: pointer;
+}
+.newsletter .right form div{
+    margin-top: 10px;
+    font-weight: 500;
+}
+.newsletter .right form span{
+    margin-top: 20px;
+    font-size: 13px;
+    text-align: center;
+    color: rgb(56, 55, 59);
+    font-weight: 100;
+}
+.newsletter .Privacy{
+    font-weight: 700;
+    color:rgb(56, 55, 59) ;
+}
