@@ -4,9 +4,23 @@ import "./navbar.css"
 
 const Navbar = () => {
     const D=useRef()
+    const ListShowed1=useRef()
+    const ListShowed2=useRef()
     const Delete=()=>{
         D.current.remove()
     }
+    const AddShowList =()=>{
+      ListShowed1.current.classList.add("ListShowed")
+    }
+    const DeleteShowList =()=>{
+        ListShowed1.current.classList.remove("ListShowed")
+      }
+      const AddShowList2 =()=>{
+        ListShowed2.current.classList.add("ListShowed2")
+      }
+      const DeleteShowList2 =()=>{
+        ListShowed2.current.classList.remove("ListShowed2")
+      }
     return (
         <nav className="navbar">
             <div ref={D} className="BlackFriday">Black Friday Sportif: 4 Weeks + Free Membership Fees <span onClick={Delete}>
@@ -16,19 +30,34 @@ const Navbar = () => {
                 </span></div>
             <div className="navbarmain">
                 <div className="left">
-                    <div className="title" title="casafit club">CASAFIT</div>
-                    <ul>
-                        <li>
-                            <Link className="link" to="CONCEPT">CONCEPT</Link>
+                    <div className="title" title="casafit club"><Link className="casafit" to={"/"}>CASAFIT</Link></div>
+                    <ul className="mainul">
+                        <li className="icon CONCEPT">
+                            <Link onMouseLeave={DeleteShowList} onMouseEnter={AddShowList} className="link" to="CONCEPT">CONCEPT</Link>
+                            <ul onMouseLeave={DeleteShowList} onMouseEnter={AddShowList} ref={ListShowed1} className="dropul">
+                               <li><Link className="linktwo" to="Home Park">Home Park</Link></li>
+                               <li><Link className="linktwo" to="Burning Park">Burning Park</Link></li>
+                               <li><Link className="linktwo" to="Fight Park">Fight Park</Link></li>
+                               <li><Link className="linktwo" to="Cycle Park">Cycle Park</Link></li>
+                               <li><Link className="linktwo" to="Train at Fitness Park">Train at Fitness Park</Link></li>
+                               <li><Link className="linktwo" to="The Fitness Park App">The Fitness Park App</Link></li>
+                            </ul>
                         </li>
-                        <li>
+                        <li className="icon SUBSCRIPTIONS">
                             <Link className="link" to="SUBSCRIPTIONS">SUBSCRIPTIONS</Link>
                         </li>
-                        <li>
+                        <li className="icon CLUBS">
                             <Link className="link" to="CLUBS">CLUBS</Link>
                         </li>
-                        <li>
-                            <Link className="link" to="ACTIVITIES">ACTIVITIES</Link>
+                        <li className="icon ACTIVITIES">
+                            <Link onMouseLeave={DeleteShowList2} onMouseEnter={AddShowList2} className="link" to="ACTIVITIES">ACTIVITIES</Link>
+                            <ul onMouseLeave={DeleteShowList2} onMouseEnter={AddShowList2} ref={ListShowed2} className="dropul">
+                               <li><Link className="linktwo" to="Bodybuilding">Bodybuilding</Link></li>
+                               <li><Link className="linktwo" to="Cross Training">Cross Training</Link></li>
+                               <li><Link className="linktwo" to="Group Classes">Group Classes</Link></li>
+                               <li><Link className="linktwo" to="Video Group Classes">Video Group Classes</Link></li>
+                               <li><Link className="linktwo" to="Cross Training">Cross Training</Link></li>
+                            </ul>
                         </li>
                     </ul>
                 </div>

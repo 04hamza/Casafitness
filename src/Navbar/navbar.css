@@ -43,6 +43,10 @@ body{
     justify-content: space-around;
     background-color: rgb(56, 55, 59);
 }
+.navbar .navbarmain .casafit{
+    color: white;
+    text-decoration: none;
+}
 .navbar .navbarmain .left{
     display:  flex;
     align-items: center;
@@ -50,10 +54,9 @@ body{
 .navbar .navbarmain .left .title{
     font-size: 30px;
     font-weight: bold;
-    color: white;
     border-bottom:2px solid rgb(255, 221, 0) ;
 }
-.navbar .navbarmain .left ul{
+.navbar .navbarmain .left .mainul{
     display: flex;
     list-style: none;
     width: 500px;
@@ -106,4 +109,56 @@ body{
     font-weight: bold;
     font-size:18px ;
     font-family: "Parkinsans", sans-serif;
+}
+.navbar .navbarmain .CONCEPT .dropul{
+    position: absolute;
+    background-color: rgb(56, 55, 59);
+    list-style: none;
+    top:101px;
+    padding:40px 20px 30px;
+    width: 450px;
+    transition: all 1s;
+    display: none;
+}
+.navbar .navbarmain .CONCEPT .dropul .linktwo{
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    margin-top: 10px;
+    transition: .8s;
+}
+.navbar .navbarmain .CONCEPT .dropul .linktwo:hover{
+    color: rgb(255, 221, 0);
+}
+.navbar .navbarmain .CONCEPT .ListShowed{
+    display: block;
+}
+.navbar .navbarmain .ACTIVITIES .dropul{
+    position: absolute;
+    background-color: rgb(56, 55, 59);
+    list-style: none;
+    top:101px;
+    padding:40px 20px 30px;
+    width: 450px;
+    transition: all 1s;
+    display: none;
+}
+.navbar .navbarmain .ACTIVITIES .dropul .linktwo{
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: 900;
+    margin-top: 10px;
+    transition: .8s;
+}
+.navbar .navbarmain .ACTIVITIES .dropul .linktwo:hover{
+    color: rgb(255, 221, 0);
+}
+.navbar .navbarmain .ACTIVITIES .ListShowed2{
+    display: block;
 }

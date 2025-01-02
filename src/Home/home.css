@@ -1,6 +1,10 @@
 *{
     box-sizing: border-box;
 }
+:root{
+    --blueColor:#5585b5;
+    --yellowColor:rgb(255, 238, 124);
+}
 ::selection{
     background-color: rgb(255, 238, 124);
     color: rgb(79, 78, 82);
@@ -14,7 +18,7 @@
 }
 .home .image-container-one{
     position: relative;
-    top: 100px;
+    top: 120px;
 }
 .home .image-container-one .overlay-text-div{
     position: absolute;

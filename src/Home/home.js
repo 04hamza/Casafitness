@@ -4,14 +4,17 @@ import Articls from "../Articls/Articls";
 import Newsletter from "../Newsletter/Newsletter";
 const  Home=()=>{
     const [numberclub,setNumberclub]=useState(0)
-    const [Recipes,setRecipes]=useState([{
+    const [Recipes]=useState([{
+      id:1,
       url:"Protein Chicken Alfredo",
       src:"https://img.youtube.com/vi/RHrBR6ccdMA/sddefault.jpg",
       title:"Protein Chicken Alfredo"},{
+      id:2,
       url:"Healthy Breakfast has 45g of Protein",
       src:"https://img.youtube.com/vi/dLairfd8bZU/sddefault.jpg",
       title:"Healthy Breakfast has 45g of Protein"
       },{
+      id:3,
       url:"Why OATBARS are Amazing as a Snack",
       src:"https://img.youtube.com/vi/-VRsAiJ0hG0/sddefault.jpg",
       title:"Why OATBARS are Amazing as a Snack"}])
@@ -60,9 +63,9 @@ const  Home=()=>{
                 <hr></hr>
              </div>
              <div className="articls">
-              <Articls articl={Recipes[0]}/>
-              <Articls articl={Recipes[1]}/>
-              <Articls articl={Recipes[2]}/>
+              {Recipes.map((ele,index)=>{
+                 return(<Articls key={index} articl={ele}></Articls>)
+              })}
              </div>
         </div>
         <div  className="image-container-four">

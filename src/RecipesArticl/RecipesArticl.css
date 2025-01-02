@@ -1,0 +1,181 @@
+
+.RecipesArticl{
+    position: relative;
+    top: 120px;
+    background-color: rgb(255, 255, 255);
+    font-family: "Parkinsans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+.RecipesArticl .title{
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(56, 55, 59);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.RecipesArticl hr{
+    height: 3px;
+    background-color: rgb(255, 221, 0);
+    border: none;
+}
+.RecipesArticl iframe{
+    margin-bottom: 5px;
+}
+.RecipesArticl .time{
+    height: 50px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 400px;
+}
+.RecipesArticl .time .left{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 0px 20px;
+    justify-content: space-around;
+}
+.RecipesArticl .time .left div{
+    font-size: 16px;
+    font-weight: bold;
+    width: 50%;
+    color: rgb(56, 55, 59);
+
+}
+.RecipesArticl .time .left .bi{
+    color: rgb(255, 221, 0);
+}
+.RecipesArticl .time .right{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    padding: 0px 20px;
+    justify-content: space-around;
+}
+.RecipesArticl .time .right .bi{
+    color: rgb(255, 221, 0);
+}
+.RecipesArticl .time .right div{
+    font-size: 16px;
+    font-weight: bold;
+    width: 50%;
+    color: rgb(56, 55, 59);
+}
+.RecipesArticl .macros{
+    height: max-content;
+    width: 100%;
+    padding-left: 300px;
+}
+.RecipesArticl .macros .title{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(56, 55, 59);
+    text-align: left;
+}
+.RecipesArticl .macros .elements{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(56, 55, 59);
+    padding: 10px;
+    text-align: left;
+}
+.RecipesArticl .ingredients{
+    height: max-content;
+    padding-left: 300px;
+    width: 100%;
+}
+.RecipesArticl .ingredients .title{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(56, 55, 59);
+    text-align: left;
+}
+.RecipesArticl .ingredients ul{
+   height: 300px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+.RecipesArticl .recipe{
+    height: max-content;
+    padding-left: 300px;
+    width: 100%;
+}
+.RecipesArticl .recipe .title{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(56, 55, 59);
+    text-align: left;
+}
+.RecipesArticl .recipe ul{
+    height: 300px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 8px;
+ }
+ .RecipesArticl .recipe ul span{
+    font-weight: 600;
+ }
+ .RecipesArticl .line{
+    width: 25%;
+    height: 2px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+ }
+.RecipesArticl .personne{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+}
+.RecipesArticl .personne img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.RecipesArticl .personne .info{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 20px;
+}
+.RecipesArticl .personne  .info h2{
+    text-transform: uppercase;
+    font-size: 40px;
+    padding: 5px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+.RecipesArticl .personne hr{
+   height: 2px;
+   background-color: rgb(255, 221, 0);
+   width: 100px;
+   margin-left: 10px;
+}
+.RecipesArticl .personne .profile{
+    font-size: 25px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.RecipesArticl .personne .info .ins{
+    margin-left: 10px;
+    color: rgb(255, 221, 0);
+}
+.RecipesArticl .personne .info .ins .bi{
+    height: 80px;
+    width: 80%;
+}

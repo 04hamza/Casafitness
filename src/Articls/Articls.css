@@ -37,4 +37,5 @@
 .articl .url .link{
     text-decoration: none;
     color: rgb(255, 221, 0);
+    cursor: pointer;
 }

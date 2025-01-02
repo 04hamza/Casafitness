@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Anton&family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Parkinsans:wght@300..800&family=Yatra+One&display=swap');
 .footer{
-    bottom: 0;
     width: 100%;
     background-color: rgb(56, 55, 59);
     padding: 40px 30px;
     position: relative;
-    margin-top: -6px;
     display: flex;
     bottom: 0px;
     font-family: "Parkinsans", sans-serif;
