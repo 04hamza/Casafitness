@@ -7,6 +7,7 @@ import GymPlans from './Login/GymPlans';
 import GymSelection from './Login/GymSelection';
 import SignUpForm from './Login/SignUpForm';
 import LoginForm from './Login/LoginForm';
+import ProposerLocal from "./components/ProposerLocal";
 import RecipesArticl from './RecipesArticl/RecipesArticl';
 function App(){
   return (
@@ -19,6 +20,7 @@ function App(){
         <Route path="/signup" element={<SignUpForm />} />
         <Route path="/gyms" element={<GymSelection />} />
         <Route path="/gymplans" element={<GymPlans />} />
+        <Route path="/Propose a location" element={<ProposerLocal />} />
       </Routes>
       <Footer/>
     </Router>

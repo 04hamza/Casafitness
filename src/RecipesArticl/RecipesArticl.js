@@ -9,13 +9,13 @@ const RecipesArticl=()=>{
         <div className="title">{data.title}</div>
          <hr></hr>
          <iframe
-         src={data.src}
-         width="900"
-         height="520"
-         frameborder="0"
-         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-         allowfullscreen> 
-         </iframe>
+        src={data.src}
+        width="900"
+        height="520"
+        frameBorder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowFullScreen
+      ></iframe>
          <div className="time">
             <div className="left">
             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="currentColor" class="bi bi-alarm" viewBox="0 0 16 16">
