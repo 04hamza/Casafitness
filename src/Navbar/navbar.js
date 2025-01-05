@@ -50,13 +50,12 @@ const Navbar = () => {
                             <Link className="link" to="CLUBS">CLUBS</Link>
                         </li>
                         <li className="icon ACTIVITIES">
-                            <Link onMouseLeave={DeleteShowList2} onMouseEnter={AddShowList2} className="link" to="ACTIVITIES">ACTIVITIES</Link>
+                            <Link onMouseLeave={DeleteShowList2} onMouseEnter={AddShowList2} className="link" to="/Activities">ACTIVITIES</Link>
                             <ul onMouseLeave={DeleteShowList2} onMouseEnter={AddShowList2} ref={ListShowed2} className="dropul">
-                               <li><Link className="linktwo" to="Bodybuilding">Bodybuilding</Link></li>
-                               <li><Link className="linktwo" to="Cross Training">Cross Training</Link></li>
-                               <li><Link className="linktwo" to="Group Classes">Group Classes</Link></li>
-                               <li><Link className="linktwo" to="Video Group Classes">Video Group Classes</Link></li>
-                               <li><Link className="linktwo" to="Cross Training">Cross Training</Link></li>
+                               <li><Link className="linktwo" to="/musculation">Musculation</Link></li>
+                               <li><Link className="linktwo" to="/cross-training">Cross Training</Link></li>
+                               <li><Link className="linktwo" to="/cardio-training">Cardio Training</Link></li>
+                               <li><Link className="linktwo" to="/cours_collectifs">Cours collectifs </Link></li>
                             </ul>
                         </li>
                     </ul>
