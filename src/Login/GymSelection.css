@@ -7,9 +7,10 @@
   padding: 20px;
   background-color: #1e1e1e; /* Dark background */
   color: white;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Parkinsans", sans-serif;
   text-align: center;
   margin: 80px;
+ 
 }
 
 h1 {
@@ -28,11 +29,13 @@ h1 {
   border: none;
   border-radius: 20px;
   font-size: 16px;
-  background-color: #efe3e3;
+  background-color: #ffffff;
   color: rgb(0, 0, 0);
   text-align: left;
   justify-content: center;
   margin-left: -10%;
+  font-size: 20px;
+  height: 70px;
 }
 
 .search-input::placeholder {

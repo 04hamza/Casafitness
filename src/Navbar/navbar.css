@@ -46,6 +46,7 @@ body{
 .navbar .navbarmain .casafit{
     color: white;
     text-decoration: none;
+    font-family: "Parkinsans", sans-serif;
 }
 .navbar .navbarmain .left{
     display:  flex;
@@ -114,7 +115,6 @@ body{
     position: absolute;
     background-color: rgb(56, 55, 59);
     list-style: none;
-    top:101px;
     padding:40px 20px 30px;
     width: 450px;
     transition: all 1s;
@@ -140,7 +140,6 @@ body{
     position: absolute;
     background-color: rgb(56, 55, 59);
     list-style: none;
-    top:101px;
     padding:40px 20px 30px;
     width: 450px;
     transition: all 1s;

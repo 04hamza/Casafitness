@@ -1,0 +1,13 @@
+.FAQ{
+    margin-top: 100px;
+}
+.FAQ img{
+    height: 700px;
+    width: 100%;
+}
+.FAQ .title{
+    position: absolute;
+    color: white;
+    background-color: aqua;
+    transform: translate(50% ,-70px);
+}

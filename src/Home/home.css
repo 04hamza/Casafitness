@@ -18,7 +18,7 @@
 }
 .home .image-container-one{
     position: relative;
-    top: 120px;
+    top: 80px;
 }
 .home .image-container-one .overlay-text-div{
     position: absolute;
@@ -125,7 +125,7 @@
     font-style:italic;
 }
 .image-container-four .title hr{
-    width: 50%;
+    width: 100%;
     height: 3px;
     margin-top: 15px;
     background-color: rgb(255, 221, 0);
