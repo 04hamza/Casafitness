@@ -2,10 +2,9 @@
 .footer{
     width: 100%;
     background-color: rgb(56, 55, 59);
-    padding: 40px 30px;
+    padding: 20px 30px ;
     position: relative;
     display: flex;
-    bottom: 0px;
     font-family: "Parkinsans", sans-serif;
 }
 .footer .left{

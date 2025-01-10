@@ -3,7 +3,7 @@
        top:140px;
        background-color: white;
        color: black;
-       height:3161px;
+       /* height:3161px; */
      
  }
 
@@ -92,18 +92,26 @@
  
 }
 .btn-SINSCRIRE .btn-link-SINSCRIRE{
-       background-color:rgb(255, 221, 0) ;    
-         color: black;
+         background-color:rgb(255, 221, 0) ;    
+         padding: 5px;
          border-radius:3px;
          font-size: 35px;
          border: 1px solid white;
          margin-left: 650px;
          margin-top:50px;
+         transition: all .9s;
+}
+.btn-SINSCRIRE .btn-link-SINSCRIRE  .link{
+       color: rgb(56, 55, 59);
+       transition: all .9s;
 }
 .btn-SINSCRIRE .btn-link-SINSCRIRE:hover{
        border-radius:13px; 
-       background-color: greenyellow;
+       background-color: rgb(56, 55, 59);
 }   
+.btn-SINSCRIRE .btn-link-SINSCRIRE:hover .link{
+       color: rgb(255, 221, 0) !important;
+}
 .title-DÉCOUVRE-activites{
     text-align: center;
     margin-top: 70px;
@@ -133,8 +141,11 @@
      border-radius: 4PX;
 }  
 .compent-newleste{
-       margin-top: -4px; 
-      
+       /* margin-top: -4px;  */
+       padding: 40px;      
+}
+.newslettemotion{
+       margin-bottom: 100px !important;
 }
 
 

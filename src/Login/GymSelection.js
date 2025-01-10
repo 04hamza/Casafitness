@@ -61,7 +61,7 @@ function GymSelection() {
               <p><FaPhoneAlt className="icon" /> <strong>Phone: </strong> {gym.phone}</p>
               <p><FaMapMarkerAlt className="icon" /> <strong>Address: </strong> {gym.address}</p>
               <button className="subscribe-button" onClick={handleSignUpClick}>Sign Up</button>
-              <button className="subscribe-button" onClick={() => navigate(`/clubdetails/${encodeURIComponent(gym.name)}`)}>Voir le Club</button>
+              <button className="subscribe-button" onClick={() => navigate(`/clubdetails/${encodeURIComponent(gym.name)}`)}>Show The Clib</button>
             </div>
           ))}
         </div>

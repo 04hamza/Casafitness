@@ -70,7 +70,7 @@ export default function Activities() {
                  whileInView={{opacity:1,scale:1,translateY:0}}
                  transition={{duration:3}}
                 className="btn-SINSCRIRE">
-                   <button className='btn-link-SINSCRIRE'><Link to="S'INSCRIRE"  style={{textDecoration:'none'}}>S'INSCRIRE</Link></button>
+                   <button className='btn-link-SINSCRIRE'><Link to="S'INSCRIRE" className='link'  style={{textDecoration:'none'}}>S'INSCRIRE</Link></button>
                 </motion.div>
                <motion.div 
                initial={{opacity:0,translateY:"100%"}}
@@ -96,9 +96,8 @@ export default function Activities() {
                 whileInView={{opacity:1,translateX:0}}
                 transition={{duration:3}}
                className="compent-newleste">
-                         <Newsletter/>
-                         
-                </motion.div>
+                <Newsletter className="newslettemotion"/>    
+                 </motion.div>
         </div>  
        
     </>
