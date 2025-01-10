@@ -12,18 +12,19 @@ body{
     background: #f9f9f9;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+    font-family: 'Poppins', sans-serif; 
   }
   
   .signup-container h1 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
     color: #222222;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
   }
   
   .signup-form .input-group {
-    margin-bottom: 15px;
+    margin-bottom: 5px;
   }
   
   .signup-form .input-group label {

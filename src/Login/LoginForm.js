@@ -21,7 +21,6 @@ function LoginForm() {
           <input
             type="email"
             id="email"
-            placeholder="Your email"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
             required
@@ -32,7 +31,7 @@ function LoginForm() {
           <input
             type="password"
             id="password"
-            placeholder="********"
+
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required

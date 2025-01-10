@@ -1,0 +1,49 @@
+
+.club-details-container {
+  margin-top: 5%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-align: left;
+  padding: 20px;
+  background-image: url('../assets/images/club.jpg'); 
+  filter: brightness(0.7);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 800px; 
+  display: flex; 
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px;
+    border-radius: 2px;
+    margin-top: -10%;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 50%;
+    
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+
+  }
+  
+  p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+
+  .icon{
+    font-size: 20px;
+    color: #e4ab00;
+  }
+
+  

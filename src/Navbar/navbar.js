@@ -47,7 +47,7 @@ const Navbar = () => {
                             <Link className="link" to="SUBSCRIPTIONS">SUBSCRIPTIONS</Link>
                         </li>
                         <li className="icon CLUBS">
-                            <Link className="link" to="CLUBS">CLUBS</Link>
+                            <Link className="link" to="gyms">CLUBS</Link>
                         </li>
                         <li className="icon ACTIVITIES">
                             <Link onMouseLeave={DeleteShowList2} onMouseEnter={AddShowList2} className="link" to="/Activities">ACTIVITIES</Link>

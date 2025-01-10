@@ -15,6 +15,7 @@ import Musculation from './Activities/Musculation';
 import Cross_training from './Activities/Cross-training';
 import Cardio_training from './Activities/cardio-training';
 import Cours_collectifs from './Activities/Cours_collectifs';
+import ClubDetails from './Login/ClubDetails';
 
 function App(){
   return (
@@ -27,6 +28,7 @@ function App(){
         <Route path="/signup" element={<SignUpForm />} />
         <Route path="/gyms" element={<GymSelection />} />
         <Route path="/gymplans" element={<GymPlans />} />
+        <Route path="/clubdetails/:name" element={<ClubDetails />} />
         <Route path="/Propose a location" element={<ProposerLocal />} />
         <Route path="/FAQ" element={<FAQ/>} />
         <Route path='/Activities' element={<Activities/>}></Route>
@@ -34,6 +36,7 @@ function App(){
         <Route path='/cross-training'element={<Cross_training/>}/>
         <Route path='/cardio-training' element={<Cardio_training/>}/>
         <Route path='/cours_collectifs' element={<Cours_collectifs/>}/>
+        
 
       </Routes>
       <Footer/>

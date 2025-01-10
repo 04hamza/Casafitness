@@ -1,133 +1,150 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap');
 
-
-
 .gym-selection-container {
-  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 20px;
-  background-color: #1e1e1e; /* Dark background */
-  color: white;
-  font-family: "Parkinsans", sans-serif;
-  text-align: center;
-  margin: 80px;
- 
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15%;
+
 }
 
 h1 {
-  color: #ffffff; /* Bright yellow */
-  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #ffbf00;
   font-style: italic;
-  font-size: 35px;
-  margin-left: -10%;
-}
 
+}
 
 .search-input {
-  width: 40%;
+  width: 60%;
   padding: 10px;
-  margin-bottom: 20px;
-  border: none;
-  border-radius: 20px;
   font-size: 16px;
-  background-color: #ffffff;
-  color: rgb(0, 0, 0);
-  text-align: left;
-  justify-content: center;
-  margin-left: -10%;
-  font-size: 20px;
-  height: 70px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-
-.search-input::placeholder {
-  color: #ccc;
-}
-
 
 .gym-content {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
-  width: 95%;
+  width: 100%;
+  gap: 20px;
+  overflow-y: auto; 
+  max-height: 500px; 
 }
 
-
 .gym-cards {
+  flex: 1;
   display: flex;
-  flex-direction: column; /* Cards stack vertically */
-  gap: 20px;
-  width: 60%; 
-  max-height: 500px; 
+  flex-direction: column;
+  gap: 15px;
   overflow-y: auto; 
-  padding-right: 10px; 
-  background-color: #333; 
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .gym-card {
-  border: none; 
-  margin: 10px;
-  border-radius: 8px;
-  padding: 20px;
-  background-color: #333; /* Dark background for cards */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-  color: white;
-  text-align: left;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .gym-card h2 {
-  color: #f1c40f;
-
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .gym-card p {
-  color: #ddd; /* Lighter text for details */
+  font-size: 16px;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
 }
 
+.gym-card .icon {
+  margin-right: 8px; 
+  font-size: 16px;
+  color: #262626;
+}
+
+
 .subscribe-button {
-  background-color: #f1c40f; /* Bright yellow */
-  color: black;
-  padding: 10px 15px;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #ffbf00;
+  font-family: 'Poppins', sans-serif;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
   font-weight: bold;
-  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  color: #000000;
+  cursor: pointer;
+  font-size: 14px;
 }
 
 .subscribe-button:hover {
-  background-color: #d4ac0d; /* Darker yellow on hover */
+  background-color: #e0a800;
 }
 
-/* Map Section */
 .map-container {
-  width: 35%; /* 25% width for the map */
-  padding: 10px;
-  border: none;
-  border-radius: 8px;
-  background-color: #333;
-  color: rgb(255, 255, 255);
+  flex: 2;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
-
-/* Responsiveness */
 @media (max-width: 768px) {
-  .gym-content {
-    flex-direction: column;
-    align-items: center;
+  .gym-selection-container {
+    margin-top: 50%;
   }
 
-  .gym-cards {
-    width: 100%;
-  }
-
-  .map-container {
-    width: 100%;
-    margin-top: 20px;
+  h1 {
+    font-size: 22px;
   }
 
   .search-input {
-    width: 80%;
+    width: 100%; 
+  }
+
+  .gym-content {
+    flex-direction: column; 
+    gap: 15px;
+  }
+
+  .gym-cards {
+    width: 100%; 
+  }
+
+  .map-container {
+    height: 250px; 
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .gym-content {
+    flex-wrap: wrap; 
+    gap: 15px;
+  }
+
+  .gym-card {
+    padding: 10px;
+  }
+
+  .subscribe-button {
+    font-size: 12px;
+  }
+
+  .map-container {
+    height: 300px;
   }
 }

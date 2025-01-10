@@ -6,17 +6,17 @@ function GymPlans() {
   const plans = [
     {
       title: 'Classic',
-      price: '19€',
+      price: '190 MAD',
       details: ['Unlimited access', 'Video courses', 'Home Training'],
     },
     {
       title: 'Access+',
-      price: '29€',
+      price: '290 MAD',
       details: ['Toning Platform', 'Water Fountain', 'Body Analysis'],
     },
     {
       title: 'Ultimate',
-      price: '39€',
+      price: '390 MAD',
       details: ['Train with a guest', 'Online coach', '-10% on club store'],
     },
   ];
@@ -31,7 +31,7 @@ function GymPlans() {
       {plans.map((plan, index) => (
         <div className="subscription-card" key={index}>
           <h2>{plan.title}</h2>
-          <p>{plan.price} for the first 4 weeks</p>
+          <p className='price-title'>{plan.price}</p><p className='discripe-title'>for the first 4 weeks</p>
           <ul>
             {plan.details.map((detail, detailIndex) => (
               <li key={detailIndex}>{detail}</li>
