@@ -62,3 +62,20 @@
     color: rgb(255, 221, 0);
 }
 
+@media (max-width: 1250px){
+   .footer{
+    flex-direction: column;
+   }
+   .footer .left {
+        flex-wrap: wrap;
+   }
+   .footer .left div{
+        width: 400px;
+        
+        margin-bottom: 4px;
+   }
+   .footer .left .block .link{
+    text-align: center;
+    font-size: 20px;
+   }
+}

@@ -161,3 +161,44 @@ body{
 .navbar .navbarmain .ACTIVITIES .ListShowed2{
     display: block;
 }
+@media (max-width: 900px) {
+    .navbarmain {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: column;
+    }
+    .navbarmain .left {
+        justify-content: space-between;
+    }
+    .navbarmain .right{
+        justify-content: space-between;
+        width: 100% !important;
+    }
+    .navbarmain .CONCEPT .dropul{
+        width: 200px !important;
+    }
+    .navbarmain .CONCEPT .dropul .linktwo{
+        font-size: 15px !important;
+    }
+    .navbarmain .ACTIVITIES .dropul{
+        width: 200px !important;
+        margin-right: 5px !important;
+        position: relative;
+        right: 0;
+    }
+    .navbarmain .ACTIVITIES .dropul .linktwo{
+        font-size: 15px !important;
+    }
+    
+  } 
+  @media (max-width: 670px){
+    .navbarmain .left {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .navbar .navbarmain .left .title{
+        font-size: 50px;
+       
+    }
+  }
