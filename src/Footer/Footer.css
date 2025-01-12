@@ -5,6 +5,7 @@
     padding: 20px 30px ;
     position: relative;
     display: flex;
+    margin-top: 140px !important;
     font-family: "Parkinsans", sans-serif;
 }
 .footer .left{
