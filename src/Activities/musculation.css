@@ -44,15 +44,18 @@
     margin-top:-5px;
 }
 .titre_Renforcer_1{
+      font-size: 30px;
       color: black;
-      margin-left:-35px ;
+      margin-left:-90px ;
       margin-top:10px;
       border-bottom: 4px solid rgb(255, 221, 0);
       width: 25%;
 }
 .paragraphe_dicription_1{
    margin-top: 10px; 
-   margin-left: -50px;   
+   margin-left: -50px;
+ 
+   
 }
 .discription-muscilation-1{
      margin-left:170px;
@@ -60,10 +63,15 @@
 
 }
 .discription-muscilation-1   .img1-muscilation{
-    margin-left: 600px;
+    margin-left: 700px;
     margin-top: -350px;
     border-radius: 30px;
-    width: 50%; 
+    width: 40%; 
+}
+ .img1-muscilation:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 0px 20px 0px   rgb(247, 251, 14);
 }
 .titre_Pour_Qui_1{
    color: black; 
@@ -71,38 +79,68 @@
    border-bottom: 3px solid  rgb(255, 221, 0);
    width: 35%;
 }
-.paragraphe_discription_1{
+.paragraphe_dicription_1{
       margin-top: 10px;
+      font-size:15px;
+      margin-left: -100px;
 }
 .discription-muscilation-2{
       margin-left: 900px;
       margin-top: 100px;
 }
+.paragraphe_discription_2{
+      font-size: 15px;
+      margin-left: -100px;
+}
+.titre_Pour_Qui_2{
+       font-size: 25px;
+       color: black; 
+       margin-left: 14px;  
+       border-bottom: 3px solid  rgb(255, 221, 0);
+       width: 23%; 
+       margin-left: -90px;
+}
 
 .img2-muscilation{
-      margin-left: -735px;
+      margin-left: -795px;
       margin-top: -339px;
       border-radius: 30px;
+      width: 80%;
 } 
+.img2-muscilation:hover{
+     transform: scale(1.1);
+     transition: 1s;
+     box-shadow: 0px 0px 20px 0px   rgb(247, 251, 14);
+}
 .POUR_QUOI_3{
+    font-size: 30px;
     color: black; 
     margin-left: 14px;  
     border-bottom: 3px solid  rgb(255, 221, 0);
-    width: 17%; 
-    margin-left: -30px;  
-}
+    width: 15%;
+    margin-left: -50px;  
+} 
 .paragraph_dicription_3{
-    margin-left: -30px;
+    margin-left: -70px;
     margin-top: 10px;
+    font-size: 17px;
+
 }
 .discription-muscilation-3{
      margin-top: 90px;   
      margin-left: 150px; 
 }
 .img3-muscilation{ 
-    margin-left: 620px;  
+    width: 40%; 
+    margin-left: 750px;  
     margin-top: -289px;
     border-radius: 30px;
+
+}
+.img3-muscilation:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow: 0px 0px 20px 0px   rgb(247, 251, 14);
 }
 .title-choix-activites{
     color:rgb(255, 221, 0)   

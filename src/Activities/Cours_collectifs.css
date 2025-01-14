@@ -29,8 +29,9 @@
 }
 
 .text-COLLECTIFS-1{
+    font-size: 23px;
     border-bottom: 3px solid rgb(243, 194, 20);  
-    width: 100px;   
+    width: 10%;   
     color: black;
     margin-left: -35px; 
     margin-top: 100px;
@@ -38,17 +39,24 @@
 }
 .paragraph_discription_1_colluctife{
        margin-top: 10px;
+       font-size: 17px;
        margin-left: -50px;
 }
 .img-colluctife-1{
-    width: 50%;   
-    margin-left:45%; 
+    width: 40%;   
+    margin-left:750px; 
     margin-top: -350px; 
     border-radius: 10px ;
 }
+.img-colluctife-1:hover{
+     transform: scale(1.2);
+     transition: 1s;
+     box-shadow:0 0 40px 0 rgb(199, 197, 197);
+}
 .text-Nos-colluctife-2{
     border-bottom: 3px solid rgb(243, 194, 20);  
-    width: 100px;   
+    width:25%;   
+    font-size: 19px;
     color: black;
     margin-left:100px; 
     margin-top: 100px;  
@@ -58,26 +66,35 @@
     margin-left:50%; 
 }
 .discription-activites-2  .img-colluctife-2{
-   margin-left:-550px;
-   margin-top: -369px;
+   margin-left:-600px;
+   margin-top: -469px;
    height: 500px;
    width: 74%;     
    border-radius: 10px;
 }
+.img-colluctife-2:hover{
+    transform: scale(1.2);
+    transition: 1s;
+    box-shadow:0 0 40px 0 rgb(199, 197, 197);  
+}
 .paragraphe_discription_colluctife_2{
      margin-top: 10px;
      margin-left:100px;
+     font-size: 20px;
 }
 
 .paragraph_dicription_colluctife_3{
-    margin-left: -30px;
+    margin-left: -90px;
     margin-top: 10px;
+    font-size: 20px;
+
 }
 .POUR_QUOI_colluctif_3{
+    font-size: 20px;
     border-bottom: 3px solid rgb(243, 194, 20);  
-    width: 250px;
+    width:10%;
     color: black;
-    margin-left: 10px; 
+    margin-left: -90px; 
     margin-top: 100px;
 }
 .DÉCOUVRE-collictife_3{
@@ -85,8 +102,13 @@
      margin-left: 30px;
 }
 .img3-colluctife_3{ 
-    width:50%;
-    margin-left: 620px;  
+    width:40%;
+    margin-left: 780px;  
     margin-top: -240px;
     border-radius: 10px;
+}
+.img3-colluctife_3:hover{
+    transform: scale(1.1);
+    transition: 1s;
+    box-shadow:0 0 40px 0 rgb(199, 197, 197);  
 }

@@ -11,12 +11,13 @@ export default function Activities() {
              
                <div className='imge-sport-1'>
                         <div className='nav-bagckround'>WELCOM TO  ACTIVITÉS</div>
-                       <img  src='https://i.pinimg.com/736x/fc/7e/bb/fc7ebb95551f3174687de726036c4965.jpg' className='img-sport-1-2' alt='ACTIVITES' />
+                       <img  src='Images/imgmodif.jpg' className='img-sport-1-2' alt='ACTIVITES' />
                        <div className='text-Activites'><span>ACTIVITÉS</span></div>
                </div>
                <motion.div 
                 initial={{opacity:0,scale:0}}
                 whileInView={{opacity:1,scale:1}}
+                viewport={{once:true }}
                 transition={{duration:1.5}}
                 className='text-container1'>
                     <h1 className='my-h1-activites-1'>SÉANCE DE SPORT ET ACTIVITÉS SPORTIVES</h1>
@@ -26,11 +27,12 @@ export default function Activities() {
                <motion.div 
                 initial={{opacity:1,translateX:"100%"}}  
                 whileInView={{opacity:1,scale:1,translateX:0}}
+                viewport={{once:true }}
                 transition={{duration:4}}
                className='discription-activites-1'>
                     <span>      
                     <h1 className='text-Nos-activites-1'>NOS ACTIVITÉS</h1><br/>
-                     <p>
+                     <p className='paragrapge-1-activites'>
                       Les activités sportives apportent beaucoup de bienfaits pour <br/>
                       l’organisme. Pratiquer un exercice physique quotidien permet de <br/>
                       rallonger l’espérance de vie, sans oublier l’effet immédiat du sport qui <br/>
@@ -48,11 +50,12 @@ export default function Activities() {
                 <motion.div 
                       initial={{opacity:1,translateX:"-100%"}}  
                       whileInView={{opacity:1,scale:1,translateX:0}}
+                      viewport={{once:true }}
                       transition={{duration:3}}
                    className='discription-activites-2'>
                     <span>
                        <h1 className='text-Nos-activites-2'>LES INSTALLATIONS</h1><br/>
-                       <p>
+                       <p className='paragraphe-activites-2'>
                         Dans les salles de sport Fitness Park, tu trouveras des installations haut de gamme <br/>
                         et les meilleurs équipements du marché : TechnoGym, Hammer Strenght, Cybex, <br/> 
                         Yanga Sports Water, Sismo Fitness. En exemple, découvre les installations du club <br/>
@@ -75,6 +78,7 @@ export default function Activities() {
                <motion.div 
                initial={{opacity:0,translateY:"100%"}}
                whileInView={{opacity:1,scale:1,translateY:0}}
+               viewport={{once:true }}
                transition={{duration:2}}
                className='title-DÉCOUVRE-activites'>
                      <h1 className='title-DÉCOUVRE-activites-1'>DÉCOUVRE NOS ACTIVITÉS</h1> 
@@ -84,6 +88,7 @@ export default function Activities() {
                <motion.div 
                  initial={{opacity:0,translateX:"-100%"}}
                  whileInView={{opacity:1,scale:1,translateX:0}}
+                 viewport={{once:true }}
                  transition={{duration:3}}
                className='img-activites'>
                      <Link to="/musculation"><img src='Images/photo1fitnas.jpg' className='img-muscilation'/></Link>
@@ -94,6 +99,7 @@ export default function Activities() {
                <motion.div  
                 initial={{opacity:0,translateX:"100%"}}
                 whileInView={{opacity:1,translateX:0}}
+                viewport={{once:true }}
                 transition={{duration:3}}
                className="compent-newleste">
                 <Newsletter className="newslettemotion"/>    

@@ -10,13 +10,14 @@ export default function Cross_training() {
              
              <div className='imge-sport-1'>
                       <div className='nav-bagckround'>WELCOM TO CROSS-TRAINIG</div>
-                     <img  src='Images/cross-training.jpg' className='img-sport-1-2' alt='ACTIVITES' />
-                     <div className='text-Activites'><span>CROSS-TRAINIG</span></div>
+                     <img  src='Images/cross-tranning.jpg' className='img-sport-1-2' alt='ACTIVITES' />
+
              </div>
              <motion.div 
               initial={{opacity:0,scale:0}}
               whileInView={{opacity:1,scale:1}}
               transition={{duration:1.5}}
+              viewport={{once:true }}
               className='text-container1'>
                   <h1 className='my-h1-activites-1'>SÉANCE DE SPORT ET ACTIVITÉS SPORTIVES</h1>
                   <h1 className='my-h1-activites-2'>ÉQUIPEMENT SPORTIF HAUT DE GAMME</h1>
@@ -25,6 +26,7 @@ export default function Cross_training() {
              <motion.div 
               initial={{opacity:1,translateX:"100%"}}  
               whileInView={{opacity:1,scale:1,translateX:0}}
+              viewport={{once:true }}
               transition={{duration:4}}
              className='discription-CROSS_TRAINING-1'>
                   <span>      
@@ -43,6 +45,7 @@ export default function Cross_training() {
               <motion.div 
                     initial={{opacity:1,translateX:"-100%"}}  
                     whileInView={{opacity:1,scale:1,translateX:0}}
+                    viewport={{once:true }}
                     transition={{duration:3}}
                  className='discription-CROSS_TRAINING-2'>
                   <span>
@@ -58,12 +61,13 @@ export default function Cross_training() {
                  <motion.div 
                     initial={{opacity:1,translateX:"100%"}}  
                     whileInView={{opacity:1,scale:1,translateX:0}}
+                    viewport={{once:true }}
                     transition={{duration:3}}
                     className='discription-CROSS_TRAINING-3'>
                   <span>
                      <h1 className='text-CROSS_TRAININ-3'>POUR QUI ?</h1>
                      <p  className='paragraphe_CROSS_TRAINING_3'>
-                     Pour toutes les personnes désireuses d’améliorer leurs performances physiques et <br/>
+                     Pour toutes les personnes désireuses d’améliorer <br/> leurs performances physiques et <br/>
                      mentales afin de mieux se dépasser et se surpasser ! <br/> 
                      </p>
                   </span> 
@@ -73,6 +77,7 @@ export default function Cross_training() {
               <motion.div 
                initial={{opacity:0,translateY:"200%"}}
                whileInView={{opacity:1,scale:1,translateY:0}}
+               viewport={{once:true }}
                transition={{duration:3}}
               className="btn-SINSCRIRE">
                  <button className='btn-link-SINSCRIRE'><Link to="S'INSCRIRE"  style={{textDecoration:'none'}}>S'INSCRIRE</Link></button>
@@ -80,6 +85,7 @@ export default function Cross_training() {
              <motion.div 
              initial={{opacity:0,translateY:"100%"}}
              whileInView={{opacity:1,scale:1,translateY:0}}
+             viewport={{once:true }}
              transition={{duration:2}}
              className='title-DÉCOUVRE-activites'>
                    <h1 className='DÉCOUVRE-activites_3'>DÉCOUVRE NOS ACTIVITÉS</h1> 
@@ -89,6 +95,7 @@ export default function Cross_training() {
              <motion.div 
                initial={{opacity:0,translateX:"-100%"}}
                whileInView={{opacity:1,scale:1,translateX:0}}
+               viewport={{once:true }}
                transition={{duration:3}}
              className='img-activites'>
                  <Link to="/musculation"><img src='Images/photo1fitnas.jpg' className='img-muscilation'/></Link>
@@ -99,6 +106,7 @@ export default function Cross_training() {
              <motion.div  
               initial={{opacity:0,translateX:"100%"}}
               whileInView={{opacity:1,translateX:0}}
+              viewport={{once:true }}
               transition={{duration:3}}
              className="compent-newleste">
                        <Newsletter/>

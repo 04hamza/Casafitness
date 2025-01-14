@@ -8,11 +8,11 @@ export default function Musculation() {
     <>
         <div className='container-muscilation'>
              <h1 className='my-h1-weclom-muscilation'>WELCOM TO MUSCILATION </h1>
-             <img src='https://i.pinimg.com/1200x/71/98/51/719851ab2199e16bb82657fb88477a78.jpg' className='img-1-muscilation'/>
-             <h1 className='my-h1-muscilation'>MUSCILATION</h1>
+             <img src='Images/MUSCILATION.jpg' className='img-1-muscilation'/>
              <motion.div
                initial={{opacity:0,scale:0}}
                whileInView={{opacity:1,scale:1}}
+               viewport={{once:true}}
                transition={{duration:1.5}}
               className='title-musculation'>
                 <h1 className='h1-MUSCULATION'>MUSCULATION</h1>
@@ -21,6 +21,7 @@ export default function Musculation() {
              <motion.div 
                initial={{opacity:1,translateX:"100%"}}  
                whileInView={{opacity:1,scale:1,translateX:0}}
+               viewport={{once:true}}
                transition={{duration:3}}
              className='discription-muscilation-1'>
                   <span>
@@ -43,11 +44,12 @@ export default function Musculation() {
              <motion.div 
              initial={{opacity:1,scale:1,translateX:"-100%"}}
              whileInView={{opacity:1,scale:1,translateX:0}}
+             viewport={{once:true }}
              transition={{duration:3}}
              className='discription-muscilation-2'>
                   <span>                       
-                       <h1 className='titre_Pour_Qui_1'>POUR QUI ?</h1> 
-                       <p className='paragraphe_discription_1'>
+                       <h1 className='titre_Pour_Qui_2'>POUR QUI ?</h1> 
+                       <p className='paragraphe_discription_2'>
                        Pour ceux qui veulent pratiquer la musculation de manière occasionnelle en <br/>
                        complément d’une autre activité sportive, mais aussi pour tous ceux qui souhaitent<br/>
                        transformer leur corps en décuplant leur masse musculaire et pousser leurs limites ! <br/>
@@ -63,6 +65,7 @@ export default function Musculation() {
              <motion.div 
              initial={{opacity:1,scale:1,translateX:"100%"}}
              whileInView={{opacity:1,scale:1,translateX:0}}
+             viewport={{once:true }}
              transition={{duration:3}}
              className='discription-muscilation-3'>
                   <span>
@@ -83,13 +86,16 @@ export default function Musculation() {
              <motion.div 
              initial={{opacity:1,scale:1,translateY:"100%"}}
              whileInView={{opacity:1,scale:1,translateY:0}}
+             viewport={{once:true }}
              transition={{duration:3}}
+             
              className='btn-SINSCRIRE'>
              <button className='sincrire-link'><Link to="/" style={{textDecoration:"none"}}>S'INSCRIRE</Link></button>
              </motion.div>
              <motion.div 
                initial={{opacity:0,translateY:"100%"}}
                whileInView={{opacity:1,scale:1,translateY:0}}
+               viewport={{once:true }}
                transition={{duration:2}}
                className='title-DÉCOUVRE-activites'>
                      <h1 className='titre_decouvre'>DÉCOUVRE NOS ACTIVITÉS</h1> 
@@ -99,6 +105,7 @@ export default function Musculation() {
             <motion.div 
                  initial={{opacity:0,translateX:"-100%"}}
                  whileInView={{opacity:1,scale:1,translateX:0}}
+                 viewport={{once:true }}
                  transition={{duration:3}}
                className='img-activites'>
                      <Link to="/Activities"><img src='Images/activites.jpg' className='img-muscilation'/></Link>
@@ -109,6 +116,7 @@ export default function Musculation() {
                <motion.div  
                 initial={{opacity:0,translateX:"100%"}}
                 whileInView={{opacity:1,translateX:0}}
+                viewport={{once:true }}
                 transition={{duration:3}}
                className="compent-newleste">
                          <Newsletter/>

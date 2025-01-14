@@ -15,8 +15,10 @@ export default function Cardio_training() {
                        <img  src='https://i.pinimg.com/736x/fd/2e/71/fd2e71ac37b87b02448eab1157785e00.jpg' className='img-sport-1-2' alt='ACTIVITES' />
                        <div className='text-TRAINING'><span>CARDIO TRAINING</span></div>
                </div>
-               <motion.div 
+               <motion.div
+
                 initial={{opacity:0,scale:0}}
+                viewport={{once:true }}
                 whileInView={{opacity:1,scale:1}}
                 transition={{duration:1.5}}
                 className='text-container1'>
@@ -27,6 +29,7 @@ export default function Cardio_training() {
                <motion.div 
                 initial={{opacity:1,translateX:"100%"}}  
                 whileInView={{opacity:1,scale:1,translateX:0}}
+                viewport={{once:true }}
                 transition={{duration:4}}
                className='discription-activites-1'>
                     <span>      
@@ -49,6 +52,7 @@ export default function Cardio_training() {
                 <motion.div 
                       initial={{opacity:1,translateX:"-100%"}}  
                       whileInView={{opacity:1,scale:1,translateX:0}}
+                      viewport={{once:true }}
                       transition={{duration:3}}
                    className='discription-activites-2'>
                     <span>
@@ -69,6 +73,7 @@ export default function Cardio_training() {
                    <motion.div 
                       initial={{opacity:1,scale:1,translateX:"100%"}}
                       whileInView={{opacity:1,scale:1,translateX:0}}
+                      viewport={{once:true }}
                       transition={{duration:3}}
                       className='discription-muscilation-3'>
                         <span>
@@ -93,6 +98,7 @@ export default function Cardio_training() {
                 <motion.div 
                  initial={{opacity:0,translateY:"200%"}}
                  whileInView={{opacity:1,scale:1,translateY:0}}
+                 viewport={{once:true }}
                  transition={{duration:3}}
                 className="btn-SINSCRIRE">
                    <button className='btn-link-SINSCRIRE'><Link to="S'INSCRIRE"  style={{textDecoration:'none'}}>S'INSCRIRE</Link></button>
@@ -100,6 +106,7 @@ export default function Cardio_training() {
                <motion.div 
                initial={{opacity:0,translateY:"100%"}}
                whileInView={{opacity:1,scale:1,translateY:0}}
+               viewport={{once:true }}
                transition={{duration:2}}
                className='title-DÉCOUVRE-activites'>
                      <h1 className='titre_decouvre'>DÉCOUVRE NOS ACTIVITÉS</h1> 
@@ -109,6 +116,7 @@ export default function Cardio_training() {
                <motion.div 
                  initial={{opacity:0,translateX:"-100%"}}
                  whileInView={{opacity:1,scale:1,translateX:0}}
+                 viewport={{once:true }}
                  transition={{duration:3}}
                className='img-activites'>
                      <Link to="/musculation"><img src='Images/photo1fitnas.jpg' className='img-muscilation'/></Link>
@@ -119,6 +127,7 @@ export default function Cardio_training() {
                <motion.div  
                 initial={{opacity:0,translateX:"100%"}}
                 whileInView={{opacity:1,translateX:0}}
+                viewport={{once:true }}
                 transition={{duration:3}}
                className="compent-newleste">
                          <Newsletter/>

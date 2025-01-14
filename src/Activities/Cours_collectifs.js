@@ -26,6 +26,7 @@ export default function Cours_collectifs() {
              <motion.div 
               initial={{opacity:1,translateX:"100%"}}  
               whileInView={{opacity:1,scale:1,translateX:0}}
+              viewport={{once:true }}
               transition={{duration:4}}
              className='discription-activites-1'>
                   <span>      
@@ -50,6 +51,7 @@ export default function Cours_collectifs() {
               <motion.div 
                     initial={{opacity:1,translateX:"-100%"}}  
                     whileInView={{opacity:1,scale:1,translateX:0}}
+                    viewport={{once:true }}
                     transition={{duration:3}}
                  className='discription-activites-2'>
                   <span>
@@ -69,6 +71,7 @@ export default function Cours_collectifs() {
               <motion.div 
                   initial={{opacity:1,scale:1,translateX:"100%"}}
                   whileInView={{opacity:1,scale:1,translateX:0}}
+                  viewport={{once:true }}
                   transition={{duration:3}}
                   className='discription-muscilation-3'>
                      <span>
@@ -87,6 +90,7 @@ export default function Cours_collectifs() {
               <motion.div 
                initial={{opacity:0,translateY:"200%"}}
                whileInView={{opacity:1,scale:1,translateY:0}}
+               viewport={{once:true }}
                transition={{duration:3}}
               className="btn-SINSCRIRE">
                  <button className='btn-link-SINSCRIRE'><Link to="S'INSCRIRE"  style={{textDecoration:'none'}}>S'INSCRIRE</Link></button>
@@ -94,6 +98,7 @@ export default function Cours_collectifs() {
              <motion.div 
              initial={{opacity:0,translateY:"100%"}}
              whileInView={{opacity:1,scale:1,translateY:0}}
+             viewport={{once:true }}
              transition={{duration:2}}
              className='title-DÉCOUVRE-activites'>
                    <h1 className='DÉCOUVRE-collictife_3'>DÉCOUVRE NOS ACTIVITÉS</h1> 
@@ -102,6 +107,7 @@ export default function Cours_collectifs() {
              <motion.div 
                initial={{opacity:0,translateX:"-100%"}}
                whileInView={{opacity:1,scale:1,translateX:0}}
+               viewport={{once:true }}
                transition={{duration:3}}
              className='img-activites'>
                    <Link to="/musculation"><img src='Images/photo1fitnas.jpg' className='img-muscilation'/></Link>
@@ -112,6 +118,7 @@ export default function Cours_collectifs() {
              <motion.div  
               initial={{opacity:0,translateX:"100%"}}
               whileInView={{opacity:1,translateX:0}}
+              viewport={{once:true }}
               transition={{duration:3}}
              className="compent-newleste">
                        <Newsletter/>
