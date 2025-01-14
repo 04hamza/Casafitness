@@ -1,0 +1,201 @@
+.recrutement-page {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+}
+
+/* Section 1 : Introduction */
+.recrutement-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url('c:/Users/Hp/Pictures/Saved Pictures/heading-1711015948815.avif');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 1px;
+    position: relative;
+    filter: brightness(1.2);
+}
+
+.recrutement-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.title {
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.description {
+    margin: 15px 0;
+    font-size: 1rem;
+    color: #fefefe;
+}
+
+.btn-offres {
+    padding: 10px 20px;
+    background-color: #f7c01c;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-offres:hover {
+    background-color: #e4b104;
+}
+
+/* Section 2 : Téléchargez votre CV */
+.cv-section {
+    background: #c5c2c2;
+    padding: 20px;
+    text-align: center;
+    border: 1px dashed #ccc;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.cv-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.cv-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.file-input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.btn-upload {
+    padding: 12px 20px;
+    background-color: #ffe013;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.btn-upload:hover {
+    background-color: #f7c01c;
+}
+
+/* Section 3 : Offres disponibles */
+.job-page {
+    padding: 20px;
+}
+
+.job-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.job-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.job-header p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.job-search {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+}
+
+
+
+/* Dernières Offres */
+.job-offers {
+    margin-top: 20px;
+}
+
+.offers-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.offer-card {
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.offer-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.offer-card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.offer-card .offer-type,
+.offer-card .offer-location {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.offer-card .offer-description {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.success-message {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
