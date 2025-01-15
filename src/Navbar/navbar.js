@@ -35,12 +35,12 @@ const Navbar = () => {
                         <li className="icon CONCEPT">
                         <Link onMouseLeave={DeleteShowList} onMouseEnter={AddShowList} className="link" to="CONCEPT">CONCEPT</Link>
                             <ul onMouseLeave={DeleteShowList} onMouseEnter={AddShowList} ref={ListShowed1} className="dropul">
-                               <li><Link className="linktwo" to="Home Park">Home Park</Link></li>
-                               <li><Link className="linktwo" to="Burning Park">Burning Park</Link></li>
-                               <li><Link className="linktwo" to="Fight Park">Fight Park</Link></li>
-                               <li><Link className="linktwo" to="Cycle Park">Cycle Park</Link></li>
-                               <li><Link className="linktwo" to="Train at Fitness Park">Train at Fitness Park</Link></li>
-                               <li><Link className="linktwo" to="The Fitness Park App">The Fitness Park App</Link></li>
+                               <li><Link style={{fontSize:"18px"}} className="linktwo" to="Home Park">Home Park</Link></li>
+                               <li><Link style={{fontSize:"18px"}} className="linktwo" to="Burning Park">Burning Park</Link></li>
+                               <li><Link style={{fontSize:"18px"}} className="linktwo" to="Fight Park">Fight Park</Link></li>
+                               <li><Link style={{fontSize:"18px"}} className="linktwo" to="Cycle Park">Cycle Park</Link></li>
+                               <li><Link style={{fontSize:"18px"}} className="linktwo" to="Train at Fitness Park">Train at Fitness Park</Link></li>
+                               <li><Link style={{fontSize:"18px"}} className="linktwo" to="The Fitness Park App">The Fitness Park App</Link></li>
                             </ul>
                         </li>
                         <li className="icon SUBSCRIPTIONS">
@@ -52,10 +52,10 @@ const Navbar = () => {
                         <li className="icon ACTIVITIES">
                             <Link onMouseLeave={DeleteShowList2} onMouseEnter={AddShowList2} className="link" to="/Activities">ACTIVITIES</Link>
                             <ul onMouseLeave={DeleteShowList2} onMouseEnter={AddShowList2} ref={ListShowed2} className="dropul">
-                               <li><Link className="linktwo" to="/musculation">Musculation</Link></li>
-                               <li><Link className="linktwo" to="/cross-training">Cross Training</Link></li>
-                               <li><Link className="linktwo" to="/cardio-training">Cardio Training</Link></li>
-                               <li><Link className="linktwo" to="/cours_collectifs">Cours collectifs </Link></li>
+                               <li><Link style={{fontSize:"18px"}} className="linktwo" to="/musculation">Musculation</Link></li>
+                               <li><Link style={{fontSize:"18px"}} className="linktwo" to="/cross-training">Cross Training</Link></li>
+                               <li><Link style={{fontSize:"18px"}} className="linktwo" to="/cardio-training">Cardio Training</Link></li>
+                               <li><Link style={{fontSize:"18px"}} className="linktwo" to="/cours_collectifs">Cours collectifs </Link></li>
                             </ul>
                         </li>
                     </ul>

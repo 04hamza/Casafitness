@@ -18,7 +18,7 @@ body{
 }
 .navbar .BlackFriday{
     background-color: rgb(255, 221, 0);
-    padding: 15px;
+    padding: 10px;
     text-align:  center;
     line-height: 10px;
     font-size: 15px;
@@ -39,7 +39,7 @@ body{
 }
 .navbar .navbarmain{
     display: flex;
-    padding: 20px;
+    padding: 10px;
     justify-content: space-around;
     background-color: rgb(56, 55, 59);
 }
@@ -176,19 +176,19 @@ body{
         width: 100% !important;
     }
     .navbarmain .CONCEPT .dropul{
-        width: 200px !important;
+        width: 170px !important;
     }
     .navbarmain .CONCEPT .dropul .linktwo{
-        font-size: 15px !important;
+        font-size: 18px !important; 
     }
     .navbarmain .ACTIVITIES .dropul{
-        width: 200px !important;
+        width: 170px !important;
         margin-right: 5px !important;
         position: relative;
         right: 0;
     }
     .navbarmain .ACTIVITIES .dropul .linktwo{
-        font-size: 15px !important;
+        font-size: 18px !important;
     }
     
   } 
