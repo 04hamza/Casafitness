@@ -1,0 +1,167 @@
+.concept-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: 60vh;
+  }
+  
+  .hero-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .gym-background {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  /* Section for Activities */
+  .activity-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 0;
+  }
+  
+  .activity-description {
+    width: 45%;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .activity-img {
+    width: 45%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  /* Button */
+  .signup-button {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .signup-btn {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .signup-btn:hover {
+    background-color: #333;
+  }
+  
+  .signup-link {
+    text-decoration: none;
+    color: white;
+  }
+  
+  /* Gym Image */
+  .gym-img-container {
+    margin: 40px 0;
+  }
+  
+  .gym-img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+  }
+  
+  /* Video Section */
+  .video-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .video-section iframe {
+    border-radius: 10px;
+  }
+  
+  /* Text Styling */
+  .activities-header, .activities-title, .activity-subtitle {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .activities-title {
+    font-size: 40px;
+  }
+  
+  .activity-subtitle {
+    font-size: 30px;
+    color: #555;
+  }
+  
+  /* Newsletter */
+  .newsletter-section {
+    margin-top: 40px;
+    text-align: center;
+  }
+  .faq-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+  }
+  
+  .gym-img-container {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .gym-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .faq-container h2 {
+    margin-top: 20px;
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .faq-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .faq-container li {
+    margin-bottom: 15px;
+  }
+  
+  .faq-container li strong {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+  }
+  
+  .faq-container li p {
+    margin: 0;
+    color: #555;
+  }
+    
