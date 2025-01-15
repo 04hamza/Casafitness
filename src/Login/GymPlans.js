@@ -5,27 +5,25 @@ import './GymPlans.css';
 function GymPlans() {
   const plans = [
     {
-      title: 'Classic',
+      title: 'basic',
       price: '190 MAD',
       details: ['Unlimited access', 'Video courses', 'Home Training'],
     },
     {
-      title: 'Access+',
+      title: 'premium',
       price: '290 MAD',
       details: ['Toning Platform', 'Water Fountain', 'Body Analysis'],
     },
     {
-      title: 'Ultimate',
+      title: 'vip',
       price: '390 MAD',
       details: ['Train with a guest', 'Online coach', '-10% on club store'],
     },
   ];
   const navigate = useNavigate();
-  const handleSignUpClick = () => {
-    // Navigate to the Sign Up page
-    navigate('/signup');
+  const handleSignUpClick = (e,title) => {
+    navigate(`/signup/${title}`);
   };
-
   return (
     <div className="subscriptions">
       {plans.map((plan, index) => (
@@ -37,7 +35,7 @@ function GymPlans() {
               <li key={detailIndex}>{detail}</li>
             ))}
           </ul>
-          <button className="choose-button" onClick={handleSignUpClick}>Choose This Plan</button>
+          <button className="choose-button" onClick={(e)=>handleSignUpClick(e,plan.title)}>Choose This Plan</button>
         </div>
       ))}
     </div>

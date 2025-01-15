@@ -58,5 +58,9 @@ body{
     background: rgb(87, 87, 81);
     color: #ddd;
   }
+  .error-message{
+    color: rgb(232, 201, 0);
+    padding: 5px;
+  }
   
   

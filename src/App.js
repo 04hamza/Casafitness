@@ -16,6 +16,7 @@ import Cross_training from './Activities/Cross-training';
 import Cardio_training from './Activities/cardio-training';
 import Cours_collectifs from './Activities/Cours_collectifs';
 import ClubDetails from './Login/ClubDetails';
+import Getdata from './Getdata';
 
 function App(){
   return (
@@ -23,9 +24,10 @@ function App(){
        <Navbar/>
        <Routes>
         <Route path='/' element={<Home/>}></Route>
+        <Route path='/data' element={<Getdata/>}></Route>
         <Route path='/Recipes/:title' element={<RecipesArticl/>}></Route>
         <Route path="/loginform" element={<LoginForm />} />
-        <Route path="/signup" element={<SignUpForm />} />
+        <Route path="/signup/:membership_type" element={<SignUpForm />} />
         <Route path="/gyms" element={<GymSelection />} />
         <Route path="/gymplans" element={<GymPlans />} />
         <Route path="/clubdetails/:name" element={<ClubDetails />} />
@@ -36,8 +38,6 @@ function App(){
         <Route path='/cross-training'element={<Cross_training/>}/>
         <Route path='/cardio-training' element={<Cardio_training/>}/>
         <Route path='/cours_collectifs' element={<Cours_collectifs/>}/>
-        
-
       </Routes>
       <Footer/>
     </Router>
