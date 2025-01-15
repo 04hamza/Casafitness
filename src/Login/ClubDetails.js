@@ -46,7 +46,7 @@ function ClubDetails() {
 
       </div>
     </div>
-    <div className="activities-container">
+    <div>
         <Activities />
     </div>
     </>

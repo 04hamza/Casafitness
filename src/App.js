@@ -8,6 +8,7 @@ import GymSelection from './Login/GymSelection';
 import SignUpForm from './Login/SignUpForm';
 import LoginForm from './Login/LoginForm';
 import ProposerLocal from "./components/ProposerLocal";
+import Recrutement from "./components/Recrutement";
 import RecipesArticl from './RecipesArticl/RecipesArticl';
 import FAQ from './FAQ/FAQ';
 import Activities from './Activities/Activities';
@@ -31,6 +32,7 @@ function App() {
         <Route path="/gymplans" element={<GymPlans />} />
         <Route path="/clubdetails/:name" element={<ClubDetails />} />
         <Route path="/Propose a location" element={<ProposerLocal />} />
+        <Route path="/Recrutement" element={<Recrutement />} />
         <Route path="/FAQ" element={<FAQ/>} />
         <Route path='/Activities' element={<Activities/>}></Route>
         <Route path='/musculation' element={<Musculation/>}></Route>
