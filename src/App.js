@@ -1,5 +1,5 @@
 import './App.css';
-import { BrowserRouter as Router,Route,Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home/home';
 import Navbar from './Navbar/navbar';
 import Footer from './Footer/Footer';
@@ -16,8 +16,9 @@ import Cross_training from './Activities/Cross-training';
 import Cardio_training from './Activities/cardio-training';
 import Cours_collectifs from './Activities/Cours_collectifs';
 import ClubDetails from './Login/ClubDetails';
+import Concept from './Concept/Concept';  // Importer le composant Concept
 
-function App(){
+function App() {
   return (
     <Router>
        <Navbar/>
@@ -28,19 +29,20 @@ function App(){
         <Route path="/signup" element={<SignUpForm />} />
         <Route path="/gyms" element={<GymSelection />} />
         <Route path="/gymplans" element={<GymPlans />} />
-        <Route path="/clubdetails/:name" element={<ClubDetails />} />
+        <Route path="/clubdetails/:name" element={<ClubDetails />} />
         <Route path="/Propose a location" element={<ProposerLocal />} />
         <Route path="/FAQ" element={<FAQ/>} />
         <Route path='/Activities' element={<Activities/>}></Route>
         <Route path='/musculation' element={<Musculation/>}></Route>
-        <Route path='/cross-training'element={<Cross_training/>}/>
+        <Route path='/cross-training' element={<Cross_training/>}/>
         <Route path='/cardio-training' element={<Cardio_training/>}/>
         <Route path='/cours_collectifs' element={<Cours_collectifs/>}/>
-        
-
+        <Route path='/concept' element={<Concept />} />  {/* Ajouter cette route pour le composant Concept */}
       </Routes>
       <Footer/>
     </Router>
   );
 }
+
 export default App;
+

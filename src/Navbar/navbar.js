@@ -33,7 +33,7 @@ const Navbar = () => {
                     <div className="title" title="casafit club"><Link className="casafit" to={"/"}>CASAFIT</Link></div>
                     <ul className="mainul">
                         <li className="icon CONCEPT">
-                            <Link onMouseLeave={DeleteShowList} onMouseEnter={AddShowList} className="link" to="CONCEPT">CONCEPT</Link>
+                        <Link onMouseLeave={DeleteShowList} onMouseEnter={AddShowList} className="link" to="CONCEPT">CONCEPT</Link>
                             <ul onMouseLeave={DeleteShowList} onMouseEnter={AddShowList} ref={ListShowed1} className="dropul">
                                <li><Link className="linktwo" to="Home Park">Home Park</Link></li>
                                <li><Link className="linktwo" to="Burning Park">Burning Park</Link></li>
